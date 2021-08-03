@@ -1,0 +1,56 @@
+.ootd-write {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.ootd-util {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ootd-util p > span:nth-child(1) {
+  margin-right: 20px;
+}
+
+.ootd-util button {
+  font-size: 1.2rem;
+  color: rgb(158, 158, 158);
+  cursor: pointer;
+  background-color: white;
+  margin: 15px;
+}
+
+.ootd-util button.active {
+  color: black;
+}
+
+.ootd-feed {
+  margin-top: 20px;
+}
+
+.ootd-feed img {
+  width: 100%;
+  height: auto;
+}
+
+.card {
+  border: none !important;
+  margin-bottom: 50px !important;
+  transition: all .5s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card .nickname {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card i {
+  color: var(--main-color-1);
+  margin: 10px 10px 10px 0;
+}
